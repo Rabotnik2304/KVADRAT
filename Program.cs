@@ -10,6 +10,11 @@ namespace RefactorMe
             Application.Run(new MainForm(800, 600));
             Console.WriteLine("123444");
             Console.WriteLine("CoolestFicha");
+            string a = Console.ReadLine();
+            if (a=="")
+            {
+                Console.WriteLine("NOTHING");
+            }
         }
     }
 }
